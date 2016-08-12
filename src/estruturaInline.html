@@ -3,13 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Estrutura javascript</title>
-    <script type="text/javascript">
-      function digaOi(){
-          alert("Oi :)")
-      }
-    </script>
+
   </head>
   <body>
-    <input type="button" name="name" value="Diga Oii :)" onclick="digaOi()">
+
+<p id="1"> teste </p>
+
+<p id="2"> teste1   </p>
+
+<p id="3" > teste2 </p>
+
+    <script type="text/javascript">
+
+  document.getElementsByTagName('body')[0].style.backgroundColor = "yellow";
+      document.getElementsByTagName('p')[0].style.backgroundColor = "red";
+      document.getElementsByTagName('p')[1].style.backgroundColor = "blue";
+      document.getElementsByTagName('p')[2].style.backgroundColor = "green";
+
+    </script>
   </body>
 </html>
